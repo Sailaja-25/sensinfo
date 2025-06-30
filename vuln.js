@@ -1,4 +1,3 @@
-// ⚠️ API Keys
 const stripeKey = "sk_test_51HqOJ2EXAMPLE1234"; // Stripe test key
 const firebaseConfig = {
   apiKey: "AIzaSyDUMMYKEY-FirebaseAPI-1234",
@@ -9,23 +8,11 @@ const firebaseConfig = {
   messagingSenderId: "123456789012",
   appId: "1:123456789012:web:abcdef123456"
 };
-
-// ⚠️ Hardcoded Secret Token
 const jwtSecret = "superSecretJWTSigningKey!@#123";
-
-// ⚠️ AWS Credentials
 const awsAccessKey = "AKIAIOSFODNN7EXAMPLE";
 const awsSecretKey = "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY";
-
-// ⚠️ Slack Webhook
 const slackWebhook = "https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXXXXXXXXXXXXXXXX";
-
-// ⚠️ Google Maps API
 const googleMapsKey = "AIzaSyFakeGoogleMapsAPIKey";
-
-// ⚠️ Basic Auth (encoded, but still visible)
 const basicAuthHeader = "Basic YWRtaW46cGFzc3dvcmQxMjM=";
-
-// ⚠️ Miscellaneous secrets
 const databasePassword = "dbPassword123!";
 const githubToken = "ghp_16CharacterFakeGitHubTokenEXAMPLE";
